@@ -112,23 +112,71 @@ body {
 	}
 }
 
+@keyframes moveInButton {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
 /* the : are the pseudo properties that will change the button on that condition */
 .btn:link,
 .btn:visited {
 	text-transform: uppercase;
 	text-decoration: none;
+	padding: 15px 40px;
 	/* always display inline block if you want to add paddings to elements */
 	display: inline-block;
+	border-radius: 100px;
+	transition: all 0.2s;
+	position: relative;
 }
 
-/ */ .btn:hover {
+/* box-shadow is the highlighted black shadow moves up 3px */
+.btn:hover {
 	transform: translateY(-3px);
+	/* xyxy .2 is 20 percent */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .btn:active {
 	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .btn-white {
 	background-color: #fff;
 	color: #777;
-	padding: 15px 40px;
+}
+
+/* after adds virtual element that you can style this is the greyed out animation behind*/
+
+.btn::after {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border-radius: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.4s;
+}
+
+.btn-white::after {
+	background-color: #fff;
+	z-index: -1;
+}
+
+/* scale 2 doubles size opacity makesit invisible*/
+.btn:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+}
+
+.btn-animated {
+	animation: moveInButton 0.5s ease-out 0.75s;
 }
