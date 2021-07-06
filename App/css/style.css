@@ -10,11 +10,13 @@ Dark green: #28b485
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: inherit;
 }
 
+/* setting the default font size in html or root ---so we can make media queries easier and code cleaner by making all sizes REM relative to this. We also make it 10px but make it a percantage so users can have their font not overuled. font-size to the % is good practice to 62.5% is 10 rem rems doesnt work for explorer*/
+
 html {
-	font-size: 10px;
+	font-size: 62.5%;
 }
 
 body {
@@ -24,6 +26,7 @@ body {
 	line-height: 1.7;
 	color: #777;
 	padding: 3rem;
+	box-sizing: border-box;
 }
 
 .header {
@@ -139,6 +142,7 @@ body {
 	border-radius: 10rem;
 	transition: all 0.2s;
 	position: relative;
+	font-size: 1.6rem;
 }
 
 /* box-shadow is the highlighted black shadow moves up 3px */
