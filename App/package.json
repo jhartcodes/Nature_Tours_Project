@@ -1,0 +1,15 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "A SCSS HTML Webpage to showcase design skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelhart89/Nature_Tours_Project.git"
+  },
+  "author": "Joel Hart",
+  "license": "ISC"
+}
