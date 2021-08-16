@@ -11,5 +11,6 @@
     "url": "git+https://github.com/joelhart89/Nature_Tours_Project.git"
   },
   "author": "Joel Hart",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
