@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+/* setting the default font size in html or  or base usings scsss root ---so we can make media queries easier and code cleaner by making all sizes REM relative to this. We also make it 10px but make it a percantage so users can have their font not overuled. font-size to the % is good practice to 62.5% is 10 rem rems doesnt work for explorer*/
+
+html {
+	// this defines what 1rem is
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+}

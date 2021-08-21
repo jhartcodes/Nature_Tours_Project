@@ -1,0 +1,64 @@
+.btn {
+	&:link,
+	&:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1.5rem 4rem;
+		/* always display inline block if you want to add paddings to elements */
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all 0.2s;
+		position: relative;
+		font-size: 1rem;
+	}
+	// box-shadow is the highlighted black shadow moves up 3px
+	//  the : are the pseudo properties that will change the button on that condition
+
+	&:hover {
+		transform: translateY(-3px);
+		/* xyxy .2 is 20 percent */
+		box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+		/* scale 2 doubles size opacity makesit invisible*/
+		&:after {
+			transform: scaleX(1.4) scaleY(1.6);
+			opacity: 0;
+		}
+	}
+
+	&:active,
+	&:focus {
+		outline: none;
+		transform: translateY(-1px);
+		box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+	}
+
+	&--white {
+		background-color: $color-white;
+		color: $color-grey-dark;
+
+		&::after {
+			background-color: $color-white;
+		}
+	}
+
+	/* after adds virtual element that you can style this is the greyed out animation behind*/
+
+	&::after {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all 0.4s;
+	}
+
+	/* animation fill mode: backwards automatically applies the keyframes 0% styles before the animation starts. */
+	&--animated {
+		animation: moveInButton 0.5s ease-out 0.75s;
+		animation-fill-mode: backwards;
+	}
+}
