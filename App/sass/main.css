@@ -147,6 +147,29 @@ body {
           animation: moveInRight 1s ease-out;
 }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  -webkit-transition: all, 0.2s;
+  transition: all, 0.2s;
+}
+
+.heading-secondary:hover {
+  -webkit-transform: skewY(2deg) skewX(15deg) scale(1.1);
+          transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.u-center-text {
+  text-align: center;
+}
+
 .btn {
   /* after adds virtual element that you can style this is the greyed out animation behind*/
   /* animation fill mode: backwards automatically applies the keyframes 0% styles before the animation starts. */

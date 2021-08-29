@@ -32,3 +32,27 @@ body {
 		animation: moveInRight 1s ease-out;
 	}
 }
+
+.heading-secondary {
+	// display: flex;  refactor to flex later
+	// justify-content: center;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-image: linear-gradient(
+		to right,
+		$color-primary-light,
+		$color-primary-dark
+	);
+	//set background gradient to length of text, transparent allows gradient to show
+	-webkit-background-clip: text;
+	color: transparent;
+	letter-spacing: 0.2rem;
+	transition: all, 0.2s;
+
+	&:hover {
+		//skews text up 2 degress and horizontally 15 to the right
+		transform: skewY(2deg) skewX(15deg) scale(1.1);
+		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+	}
+}
