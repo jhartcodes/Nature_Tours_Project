@@ -1,0 +1,37 @@
+.card {
+	//perspective has to be on the parent..
+	perspective: 150rem;
+	//not implimented in all browsers
+	-moz-perspective: 150rem;
+	position: relative;
+	height: 50rem;
+
+	&__side {
+		color: #fff;
+		font-size: 2rem;
+		height: 50rem;
+		transition: all 0.8s ease;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		backface-visibility: hidden;
+
+		&--front {
+			background-color: $color-white;
+		}
+
+		&--back {
+			background-color: cyan;
+			transform: rotateY(180deg);
+		}
+	}
+
+	&:hover &__side--front {
+		transform: rotateY(-180deg);
+	}
+
+	&:hover &__side--back {
+		transform: rotateY(0);
+	}
+}
