@@ -577,6 +577,10 @@ body {
 
 .story__img {
   height: 100%;
+  -webkit-transform: translateX(-4rem) scale(1.4);
+          transform: translateX(-4rem) scale(1.4);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .story__text {
@@ -597,12 +601,21 @@ body {
   opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .story:hover .story__caption {
   opacity: 1;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.story:hover .story__img {
+  -webkit-transform: translateX(-4rem) scale(1);
+          transform: translateX(-4rem) scale(1);
+  -webkit-filter: blur(3px) brightness(80%);
+          filter: blur(3px) brightness(80%);
 }
 
 .row {
