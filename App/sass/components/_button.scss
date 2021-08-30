@@ -9,14 +9,14 @@
 		border-radius: 10rem;
 		transition: all 0.2s;
 		position: relative;
-		font-size: 1rem;
+		font-size: 1.6rem;
 
 		//Change for the <button> element
 		border: none;
 		cursor: pointer;
+		// box-shadow is the highlighted black shadow moves up 3px
+		//  the : are the pseudo properties that will change the button on that condition
 	}
-	// box-shadow is the highlighted black shadow moves up 3px
-	//  the : are the pseudo properties that will change the button on that condition
 
 	&:hover {
 		transform: translateY(-3px);
@@ -43,6 +43,15 @@
 
 		&::after {
 			background-color: $color-white;
+		}
+	}
+
+	&--green {
+		background-color: $color-primary;
+		color: $color-white;
+
+		&::after {
+			background-color: $color-primary;
 		}
 	}
 

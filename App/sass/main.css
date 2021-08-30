@@ -196,7 +196,7 @@ body {
   margin-bottom: 8rem;
 }
 
-.u-margin-top {
+.u-margin-top-big {
   margin-top: 8rem;
 }
 
@@ -215,7 +215,7 @@ body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;
-  font-size: 1rem;
+  font-size: 1.6rem;
   border: none;
   cursor: pointer;
 }
@@ -250,6 +250,15 @@ body {
 
 .btn--white::after {
   background-color: #fff;
+}
+
+.btn--green {
+  background-color: #55c57a;
+  color: #fff;
+}
+
+.btn--green::after {
+  background-color: #55c57a;
 }
 
 .btn::after {
