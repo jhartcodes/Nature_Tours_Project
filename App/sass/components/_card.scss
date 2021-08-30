@@ -86,6 +86,7 @@
 
 	&__heading-span {
 		padding: 1rem 1.5rem;
+		//below alows us to seperate the 1 line to make it like its 2 elements. applies all declerations so in this case all of the padding to all of the boxes that are created. 1 element 2 boxes same padding.
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
 
@@ -95,6 +96,27 @@
 				rgba($color-secondary-light, 0.85),
 				rgba($color-secondary-dark, 0.85)
 			);
+		}
+	}
+
+	&__details {
+		padding: 3rem;
+
+		ul {
+			list-style: none;
+			width: 80%;
+			//centers the position of the list to take up the max amount of space.
+			margin: 0 auto;
+
+			li {
+				text-align: center;
+				font-size: 1.5rem;
+				padding: 1rem;
+
+				&:not(:last-child) {
+					border-bottom: 1px solid $color-grey-light-2;
+				}
+			}
 		}
 	}
 }
