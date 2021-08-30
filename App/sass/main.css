@@ -200,6 +200,10 @@ body {
   margin-top: 8rem;
 }
 
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
+
 .btn {
   /* after adds virtual element that you can style this is the greyed out animation behind*/
   /* animation fill mode: backwards automatically applies the keyframes 0% styles before the animation starts. */
