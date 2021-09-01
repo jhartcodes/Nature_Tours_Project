@@ -40,6 +40,7 @@
 		transition: all 0.3s;
 	}
 
+	// because the label and placeholder are siblings we can use + adjacent also the html needs to be written in the order of the sibling selector.
 	&__input:placeholder-shown + &__label {
 		opacity: 0;
 		visibility: hidden;
