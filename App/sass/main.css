@@ -948,7 +948,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
-  background-size: 220%;
+  background-size: 225%;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -1001,6 +1001,30 @@ body {
 
 .navigation__icon::after {
   top: 0.8rem;
+}
+
+.navigation__icon__button:hover .navigation__icon__icon::before {
+  top: -1rem;
+}
+
+.navigation__icon__button:hover .navigation__icon__icon::after {
+  top: 1rem;
+}
+
+.navigation__icon__checkbox:checked + .navigation__icon__button .navigation__icon__icon {
+  background-color: transparent;
+}
+
+.navigation__icon__checkbox:checked + .navigation__icon__button .navigation__icon__icon::before {
+  top: 0;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.navigation__icon__checkbox:checked + .navigation__icon__button .navigation__icon__icon::after {
+  top: 0;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
 
 .section-about {
