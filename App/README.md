@@ -2,6 +2,23 @@ Natours is an advanced SASS/CSS/HTML Project that uses grid layout and complex c
 
 ## Final Product
 
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Header.png)
+
+!["Screenshot of the vegetable information page."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Tours.png)
+
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/about-section.png)
+
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/bookingForm.png)
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/features.png)
+
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/footer.png)
+
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/navigation.png)
+
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/popup.png)
+
+!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/reviews.png)
+
 # Getting Started
 
 To save time this project uses ritwick deys live SASS compiler and live server.
