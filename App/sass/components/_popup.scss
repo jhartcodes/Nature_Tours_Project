@@ -15,16 +15,21 @@
 		box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
 		border-radius: 3px;
 		display: table;
+		overflow: hidden;
 	}
 
 	&__left {
 		width: 33.333333333%;
 		display: table-cell;
+		vertical-align: middle;
+		padding: 3rem 5rem;
 	}
 
 	&__right {
 		width: 66.666666666%;
 		display: table-cell;
+		vertical-align: middle;
+		padding: 3rem;
 	}
 
 	&__img {
@@ -33,5 +38,14 @@
 	}
 
 	&__text {
+		font-size: 1.4rem;
+		margin-bottom: 4rem;
+		// setting gap in the text for 2 columns
+		column-count: 2;
+		column-gap: 4rem;
+		// setting small border for the columns
+		column-rule: 1px solid $color-grey-light-2;
+		// can set to auto or manual,, man requires hyphens in the html we also need to change the html language to english
+		hyphens: auto;
 	}
 }
