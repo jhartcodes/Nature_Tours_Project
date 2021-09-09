@@ -2,23 +2,23 @@ Natours is an advanced SASS/CSS/HTML Project that uses grid layout and complex c
 
 ## Final Product
 
-Header with custom animated buttons for nav and discover tours![Header with custom buttons for booking and nav.](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Header.png)
+Header with custom animated buttons for navigation popup and tours link![Header with custom buttons for booking and nav.](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Header.png)
 
-Tours booking section with rotating card animation with link for booking!["about tours section with animation on header, images and learn more button."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Tours.png)
+Tours description with animated header, button, and images!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/about-section.png)
 
-Tours description with animated header, button and images!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/about-section.png)
+Tours booking section with rotating card animation and a link for booking!["about tours section with animation on header, images and learn more button."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Tours.png)
 
-Features section with custom graphics and hover animation!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/bookingForm.png)
+Reviews section with live video background and hover animations!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/reviews.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/features.png)
+Booking form with animations on buttons and form!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/bookingForm.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/footer.png)
+Features section with custom graphics and hover animation!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/features.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/navigation.png)
+Footer with hover animations!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/footer.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/popup.png)
+Navigation popup with hover slide animation!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/navigation.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/reviews.png)
+Book now popup!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/popup.png)
 
 # Getting Started
 
