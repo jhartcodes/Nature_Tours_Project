@@ -2,13 +2,14 @@ Natours is an advanced SASS/CSS/HTML Project that uses grid layout and complex c
 
 ## Final Product
 
-SJKDJFSKJDFLSDJFK![Header with custom buttons for booking and nav.](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Header.png)
+Header with custom animated buttons for nav and discover tours![Header with custom buttons for booking and nav.](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Header.png)
 
-[!["about tours section with animation on header, images and learn more button."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Tours.png)
+Tours booking section with rotating card animation with link for booking!["about tours section with animation on header, images and learn more button."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/Tours.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/about-section.png)
+Tours description with animated header, button and images!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/about-section.png)
 
-[!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/bookingForm.png)
+Features section with custom graphics and hover animation!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/bookingForm.png)
+
 [!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/features.png)
 
 [!["Header."](https://github.com/joelhart89/Nature_Tours_Project/blob/master/App/docs/footer.png)
