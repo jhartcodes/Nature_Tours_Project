@@ -40,12 +40,16 @@
 	&__text {
 		font-size: 1.4rem;
 		margin-bottom: 4rem;
-		// setting gap in the text for 2 columns
+		// COLUMNS you can set gap and number with count.. rule is the width of column
 		column-count: 2;
 		column-gap: 4rem;
-		// setting small border for the columns
 		column-rule: 1px solid $color-grey-light-2;
-		// can set to auto or manual,, man requires hyphens in the html we also need to change the html language to english
+
+		// HYPHENS set to auto or manual,, man requires hyphens in the html we also need to change the html language to english, also requires prefixes to work on all browsers..
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
+		-webkit-hyphens: auto;
+
 		hyphens: auto;
 	}
 }

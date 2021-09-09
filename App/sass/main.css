@@ -719,9 +719,9 @@ body {
           column-gap: 4rem;
   -webkit-column-rule: 1px solid #eee;
           column-rule: 1px solid #eee;
+  -ms-hyphens: auto;
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
 }
 
 .story {
